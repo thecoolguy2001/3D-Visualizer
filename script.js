@@ -3,7 +3,7 @@ const canvas = document.getElementById('visualizerCanvas');
 const ctx = canvas.getContext('2d');
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const analyser = audioContext.createAnalyser();
-const audioElement = new Audio('your-audio-file.mp3'); // Replace with your audio file
+const audioElement = new Audio('clubtropicana.mp3'); // Replace with your audio file
 
 let isPlaying = false;
 
